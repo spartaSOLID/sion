@@ -73,6 +73,8 @@ public class MemberService {
 ### 시간 측정 AOP 등록 (공통묘듈 추출 및 구현)
 
 ```java
+package hello.hellospring.aop;
+
 @Component //스프링 빈으로 등록
 @Aspect //AOP 설정을 할 클래스이다 설정
 public class TimeTraceAop {
